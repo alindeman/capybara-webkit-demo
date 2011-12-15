@@ -1,5 +1,2 @@
-one:
-  name: MyString
-
-two:
-  name: MyString
+toys_and_games:
+  name: Toys and Games

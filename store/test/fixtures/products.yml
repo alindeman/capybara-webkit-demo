@@ -1,9 +1,11 @@
-one:
-  name: MyString
+settlers_of_catan:
+  name: Settlers of Catan
   price: 9.99
-  description: MyText
+  description: The Settlers of Catan is a multiplayer board game designed by Klaus Teuber and first published in 1995 in Germany by Franckh-Kosmos Verlag (Kosmos) as Die Siedler von Catan.
+  category: toys_and_games
 
-two:
-  name: MyString
-  price: 9.99
-  description: MyText
+pass_the_pigs:
+  name: Pass the Pigs
+  price: 5.99
+  description: Pass the Pigs is a commercial version of the dice game, Pig.
+  category: toys_and_games
