@@ -1,2 +1,14 @@
-// Place your application-specific JavaScript functions and classes here
-// This file is automatically included by javascript_include_tag :defaults
+// Could be replaced by something like jquery-throttle
+$(document).ready(function() {
+  var submit_timer = null;
+  $("#search").keydown(function() {
+    if (!!submit_timer) {
+      clearTimeout(submit_timer);
+    }
+
+    var field = this;
+    submit_timer = setTimeout(function() {
+      $(field).parents("form").submit();
+    }, 500);
+  });
+});
